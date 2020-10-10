@@ -6,6 +6,8 @@ html {
   min-height: 80%;
 }
 
+
+
 article {
   padding-left: 5%;
   padding-right: 7%;
@@ -31,6 +33,14 @@ body p {
   color: #607070;
   font-size: larger;
   /* 文青灰 */
+}
+
+article h1+p{
+  /* tagline */
+  /* defined as first p after Headline */
+  font-size: medium;
+  font-style: italic;
+  color: gray;
 }
 
 nav {
