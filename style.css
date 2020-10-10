@@ -15,11 +15,9 @@ article {
   /* limit viewport for better readability */
   /* while on mobile, shrink the padding */
   /* 80 character should be readable enough */
-  
+
   /* right requires more because of the scrollbar. */
 }
-
-
 
 body section {
   margin-top: 2rem;
