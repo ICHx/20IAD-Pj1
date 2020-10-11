@@ -77,7 +77,7 @@ body {
 body > article {
   margin: 0 auto;
   width: 80%;
-  background: white;
+  
   padding-top: 2em;
 }
 
@@ -130,6 +130,7 @@ h3 {
 section {
   /* section frame */
   border: 1px solid rgb(47, 64, 79);
+  background: white;
   margin-bottom: 1em;
   /* spacing between each section */
 }
