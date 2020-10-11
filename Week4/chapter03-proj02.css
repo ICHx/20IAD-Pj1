@@ -69,6 +69,10 @@ header > h1 {
 /* end of header */
 
 /* start of article */
+body {
+    background-color: whitesmoke;
+    background-image: url(images/background-pattern.png);
+}
 
 body > article {
   margin: 0 auto;
