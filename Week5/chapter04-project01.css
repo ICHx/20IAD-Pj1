@@ -1,0 +1,95 @@
+/* general text formatting */
+
+h1, h2, h3, nav, footer {
+ font-family: Georgia, Cambria, "Times New Roman", serif;
+}
+body {
+   font-family: "Lucida Sans", Verdana, Arial, sans-serif;
+   font-size: 100%;
+   margin-left:  auto;
+   margin-right:  auto;
+   margin-top: 2em;
+   width: 80%;
+   
+}
+
+section{
+   padding: 0.5em;
+   padding-top: 0.25em;
+   
+   margin-bottom: 2em;
+   border: 1px solid wheat;
+   /* debug */
+}
+
+table{
+
+   margin-left:  auto;
+   margin-right:  auto;
+}
+
+caption{
+   background-color: olivedrab;
+padding: 0.5em;
+}
+
+
+th, td{
+   background-color: rgb(228, 228, 228);
+   text-align: center;
+}
+
+th{
+   border-bottom: 1px solid grey;
+   font-size: 70%;
+   font-weight: normal;
+}
+
+td{
+   padding: 0.25em;
+
+   border-right: 1px solid grey;
+   border-bottom: 1px solid grey;
+   
+}
+
+th, td:empty , .navi{
+   background-color: whitesmoke;
+}
+
+
+
+a:link, a:visited{
+   color: teal;
+}
+
+.navi{
+   font-size: 80%;
+   padding: .8em;
+}
+
+.navi>a:link, .navi>a:visited{
+   color: darkslategray;
+
+}
+
+table tr:last-child td{
+   border: 0px;
+}
+
+.right{
+   text-align: right;
+}
+.left{
+   text-align: left;
+}
+
+/* form */
+#form{
+   background-color: burlywood;
+}
+
+#form p {
+   /* margin-bottom: 0.5em; */
+   padding: 0.25em;
+}
