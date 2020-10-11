@@ -1,9 +1,57 @@
 /* general text formatting */
 
-h1, h2, h3, nav, footer {
- font-family: Georgia, Cambria, "Times New Roman", serif;
+h1,
+h2,
+h3,
+nav,
+footer {
+  font-family: Georgia, Cambria, "Times New Roman", serif;
 }
+
 body {
-   font-family: "Lucida Sans", Verdana, Arial, sans-serif;
-   font-size: 100%;
+  font-family: "Lucida Sans", Verdana, Arial, sans-serif;
+  font-size: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
+  width: 80%;
+}
+
+section {
+  padding: 0.75em;
+
+  margin-bottom: 1em;
+  border: 1px solid deepskyblue;
+  background-color: rgb(209, 233, 255);
+  
+  min-width: min-content;
+
+  /* debug */
+}
+
+#searchBox {
+  margin-bottom: 0.25em;
+}
+
+#listing {
+  background-color: white;
+}
+
+#listing table {
+  min-width: 50%;
+  border-collapse: collapse;
+
+}
+
+#listing caption {
+  background-color: skyblue;
+  text-align: center;
+  padding: 0.5em;
+}
+
+tbody th,
+td {
+  text-align: left;
+
+  border-bottom: 1px solid lightblue;
 }
